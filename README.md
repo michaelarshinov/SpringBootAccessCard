@@ -1,2 +1,2 @@
-# SpringBootAccessCard
-Демо CRUD backend со Swagger 
+# SpringBootBackendAndAWTTemplate
+Многомодульный проект CRUD backend со Swagger и AWT конфигуратор
