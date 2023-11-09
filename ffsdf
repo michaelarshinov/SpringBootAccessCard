@@ -1,0 +1,41 @@
+[33mcommit bec46b4919a6d945f65d80e3bcc22ce130bc921d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Michael Arshynov <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:54:00 2023 +0300
+
+    Update README.md : ассинхронный messaging в nodejs
+
+[33mcommit 3f3b735c950ebd259bae05983988697a1d4c1b76[m
+Author: Michael Arshynov <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:39:26 2023 +0300
+
+    Delete pom.xml
+
+[33mcommit feaef0aa6d35ff7bf5b7b79e8ddf2063970a52ed[m
+Author: Michael Arshynov <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:36:38 2023 +0300
+
+    Update README.md : HubConnection
+
+[33mcommit 56231124928482d8955fa592ff8a5dc6ce16cccb[m
+Author: Михаил Аршинов <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:33:57 2023 +0300
+
+    readme.md : jwt
+
+[33mcommit 0bcfbc394b30fa7583f32ecacc3974952dbb66a3[m
+Author: Michael Arshynov <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:19:06 2023 +0300
+
+    Внесение правок в README.md
+
+[33mcommit ab5e0f94fffcaebd6c15242abf6997931982cbf4[m
+Author: Михаил Аршинов <java.dev.m.ar@gmail.com>
+Date:   Wed Nov 8 17:04:33 2023 +0300
+
+    readme.md : demo crud backend swagger
+
+[33mcommit 30de495d7d5eb987032621a3a02bf6d49e5a2d0a[m
+Author: Michael Arshynov <775510+michaelarshinov@users.noreply.github.com>
+Date:   Wed Nov 8 13:21:09 2023 +0300
+
+    Initial commit

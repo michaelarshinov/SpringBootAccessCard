@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<include file= "db/changelog/gen_random_uuid.sql"/>
+    <include file="db/changelog/log.sql"/>
+    <include file="db/changelog/permission.sql"/>
+    <include file="db/changelog/language.sql"/>
+    <include file="db/changelog/text-resources.sql"/>
+    <include file="db/changelog/theme.sql"/>
+    <include file="db/changelog/theme-names.sql"/>
+    <include file="db/changelog/navigation-item.sql"/>
+    <include file="db/changelog/dictionary-static.sql"/>
+    <include file="db/changelog/permission-navigation-item.sql"/>
+    
+	<include file="db/changelog/modulespecific/template-system.sql"/>
+	<!-- <include file="db/changelog/modulespecific/access-zone.sql"/> -->
+	<include file="db/changelog/modulespecific/attendance-object.sql"/>
+	<include file="db/changelog/modulespecific/access-point.sql"/>
+	
+	<!-- 
+	<include file="db/changelog/modulespecific/template-system-insert.sql"/>
+	<include file="db/changelog/modulespecific/access-zone-insert.sql"/>
+	<include file="db/changelog/modulespecific/attendance-object-insert.sql"/>
+	<include file="db/changelog/modulespecific/access-point-insert.sql"/> 
+	--> 
+	<include file="db/changelog/modulespecific/rfidcard.sql"/>
+	<include file="db/changelog/modulespecific/search-functions-one.sql"/>
+	<include file="db/changelog/modulespecific/search-functions-two.sql"/>
+	
+	<include file="db/changelog/modulespecific/access-event.sql"/>
+	
+</databaseChangeLog>

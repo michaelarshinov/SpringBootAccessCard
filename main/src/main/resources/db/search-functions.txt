@@ -1,0 +1,13 @@
+	@Modifying
+	@Query(nativeQuery = true, value = 
+		 "select cast(\"Id\" as text) as id, fullvisitingpage(\"VisitorNaming\",\"VisitingNumber\")"+
+		 "<-> :searchString as dist from \"Staying\""+
+		 " union "+
+		 "select cast( \"Id\" as text) as id, fullvisitingpage(\"VisitorNaming\",\"VisitingNumber\")"+
+		 "<-> replace_unaccent_eng(:searchString) as dist from \"Staying\""+
+		 " union "+
+		 "select cast( \"Id\" as text) as id, fullvisitingpage(\"VisitorNaming\",\"VisitingNumber\")"+
+		 "<-> replace_unaccent_eng_translit(:searchString) as dist from \"Staying\""+
+		 "order by dist asc limit 10"
+	)
+	List<UUIDAndDoubleDto> searchBySubjectAndNumber(@Param("searchString") String searchString);
