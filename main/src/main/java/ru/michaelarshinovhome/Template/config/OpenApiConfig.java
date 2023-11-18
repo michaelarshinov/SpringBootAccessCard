@@ -41,8 +41,8 @@ public class OpenApiConfig {
                         .bearerFormat("JWT")
                 ))
                 .security(List.of(new SecurityRequirement().addList("Authorization")))
-                .info(new Info().title("Module AccessControl").description(
-                        "java AccessControl module for Insyres [2022]")
+                .info(new Info().title("Module SpringBootBackendAndAWTTemplate").description(
+                        "java SpringBootBackendAndAWTTemplate [2022]")
                 		.version(moduleVersion));
     }
     /*@Bean
